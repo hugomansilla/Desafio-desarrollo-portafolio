@@ -21,9 +21,15 @@
 	max-height: 400px;
 }
 
-.titulo {
-	align-items: center;
-}
+
 .tamano { /*Tamaño maximo de tarjetas*/
-  width: 400px;
+  width: auto;
+	height: 300px;
+}
+
+.color-fondo {
+	background-color: #98d8f1;
+}
+#carouselExampleAutoplaying {
+	width: 40rem;
 }
