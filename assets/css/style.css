@@ -24,3 +24,6 @@
 .titulo {
 	align-items: center;
 }
+.tamano { /*Tamaño maximo de tarjetas*/
+  width: 400px;
+}
