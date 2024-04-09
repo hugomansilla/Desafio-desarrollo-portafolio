@@ -17,6 +17,7 @@
 <body>
   <nav class="navbar navbar-expand-lg pink-bg">
     <div class="container-fluid">
+      <img src="assets/img/logo.png" class="img-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -27,8 +28,11 @@
                   <a class="text-white nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-white nav-link" href="./mis-trabajos.html">Portafolio</a>
-                </li>
+                  <a class="text-white nav-link" href="#Experiencia">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-white nav-link" href="./mis-trabajos.html">Portafolio</a>
+              </li>
             </ul>
         </div>
     </div>
@@ -40,7 +44,7 @@
                 Millaray Painemil
             </h1>
             <p class="my-5 fs-5">
-                Estudiante Programador Full Stack<br> <br>
+                Estudiante Programador Full Stack<br><br>
                 Nutricionista
             </p>
             <div class="mb-5 pb-5">
@@ -50,26 +54,38 @@
     </div>
   </header>
 
-  <main>
-    <div id="Acerca-de-mi" class="container text-center my-5">
-      <div class="d-flex">
-        <div class="row col-xs-12 justify-content-center">
-          <img class="foto-perfil col-md-4" src="./assets/img/Foto.jpg" alt="Foto perfil">
-            <div class="col-md-8 justify-content-end">
-              <div class="row justify-content-center">
-                <div class="col-md-8 ml-2 mr-2 ">
+  <main class="m-0 p-0">
+    <div id="Acerca-de-mi" class="container-xl text-center my-5 ml-0 mr-0">
+      <div class="d-flex container-fluid">
+        <div class="row col-sm-12 justify-content-center">
+          <div class="col-md-4">
+            <img class="foto-perfil py-5" src="./assets/img/Foto.jpg" alt="Foto perfil">
+          </div>
+
+          <div class="col-md-4 justify-content-center">
+            <div class="row justify-content-center">
+
               <h4 class="display-5 fw-bold my-4 titulo">Sobre mi</h4>
                 <p class="my-3">Soy una profesional motivada por cambiar de dirección en el ámbito laboral.<br>
-                    Tengo una gran preocupación de entregar resultados sobresalientes en las tareas que se me encomienden.<br>
-                    Además de desafiarme día a día, con tal de aprender nuevas herramientas profesionales y personales.</p>
-                  </div> 
-            </div>
+                  Tengo una gran preocupación de entregar resultados sobresalientes en las tareas que se me encomienden.<br>
+                  Además de desafiarme día a día, con tal de aprender nuevas herramientas profesionales y personales.
+                </p>
+
+          </div>
+          </div>
+          <div class="col-md-4 justify-content-center">
+            <h4 class="display-5 fw-bold my-4 titulo">Idiomas</h4>
+            <ul class="list-group">
+              <li class="list-group-item">Español nativo</li>
+              <li class="list-group-item">Inglés avanzado</li>
+              <li class="list-group-item">Japonés básico</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div id="Lenguajes" class="container-xl text-center py-5 color-fondo">
+    <div id="Lenguajes" class="container-fluid text-center py-5 color-fondo">
       <h4 class="display-5 fw-bold my-4 titulo text-li">Habilidades</h4>
       <div class="row">
         <div class="col-12 col-md-4">
@@ -95,7 +111,7 @@
         <div class="col-md-6">
           <h4 class="display-5 fw-bold my-4 text-center">Experiencia</h4>
           <ul class="list-group">
-            <li class="list-group-item">Nutricionista clinica - UC Christus</li>
+            <li class="list-group-item">Nutricionista clínica - UC Christus</li>
             <li class="list-group-item">Jefa de fila segundo violin - OEUTFSM</li>
             <li class="list-group-item">Ayudante Procesamiento de alimentos - PUC</li>
           </ul>
@@ -103,18 +119,18 @@
 
         </div>
         <div class="col-md-6">
-          <h4 class="display-5 fw-bold my-4 text-center">Educacion</h4>
+          <h4 class="display-5 fw-bold my-4 text-center">Educación</h4>
           <ul class="list-group">
             <li class="list-group-item">Diplomado: Diseño y Programación Web -SENCE </li>
             <li class="list-group-item">Diplomado: Fundamentos de la Programación y Desarrollo Web - SENCE</li>
-            <li class="list-group-item">Nutricion y dietetica - PUC</li>
+            <li class="list-group-item">Nutrición y dietética - PUC</li>
             <li class="list-group-item">Curso Excel Avanzado - Udemy</li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div id="Portafolio" class="container-xl color-fondo pb-5">
+    <div id="Portafolio" class="container-fluid color-fondo pb-5">
       <div class="row d-flex justify-content-center">
         <h4 class="display-5 fw-bold my-4 text-center">Portafolio</h4>
         <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
@@ -124,6 +140,9 @@
             </div>
             <div class="carousel-item">
               <a href="./mis-trabajos.html"><img src="./assets/img/Cuppon.png" class="d-block w-100" alt="Cuppon"></a>
+            </div>
+            <div class="carousel-item">
+              <a href="./mis-trabajos.html"><img src="./assets/img/Landing-page.png" class="d-block w-100" alt="Landing"></a>
             </div>
           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -140,8 +159,8 @@
 
 
   </main>
-  <footer class="pink-bg text-center text-light p-4 container-xl">
-      <h4 class="text-center fw-bold">Contactame</h4>
+  <footer class="pink-bg text-center text-light p-4 container-fluid">
+      <h4 class="text-center fw-bold">Contáctame</h4>
       <div class="row d-flex justify-content-center col-12">
         <a href="www.linkedin.com/in/millaray-painemil-herrera" class="col-md-4"><i class="fa-brands fa-linkedin fa-1x "></i></a>
         <a href="Milla.paine@outlook.com" class="col-md-4"><i class="fa-solid fa-envelope fa-1x"></i></a>
