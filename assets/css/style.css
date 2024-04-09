@@ -33,3 +33,12 @@
 #carouselExampleAutoplaying {
 	width: 40rem;
 }
+nav {
+	position: sticky;
+}
+
+a:link {
+	color: #98d8f1;
+	background-color: transparent;
+	text-decoration: none;
+  }
