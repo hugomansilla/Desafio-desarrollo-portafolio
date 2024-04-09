@@ -7,4 +7,4 @@ URL: https://yumikosito.github.io/
 
 Fork 1: https://github.com/yumikosito/rosirijilla-portafolio-cv con commit en Navbar
 
-Fork 2: https://github.com/yumikosito/frankiza-portafilio-cv
+Fork 2: https://github.com/yumikosito/frankiza-portafilio-cv con commit en Navbar y break en header
